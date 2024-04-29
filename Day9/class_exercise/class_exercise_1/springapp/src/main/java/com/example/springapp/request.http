@@ -1,0 +1,15 @@
+###Post Details of an student
+POST http://localhost:8080/api/person
+Content-Type: application/json
+
+{
+     "personId":72,
+     "firstName":"tim",
+     "lastName":"A",
+     "age":20,
+     "gender":"male",
+     "email":"727722"
+}
+
+###Get Details of an student by marks less than given marks
+GET http://localhost:8080/api/person/byage/21
